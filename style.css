@@ -66,3 +66,50 @@ button {
 button:hover {
     background-color: #4A3525;
 }
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #6F4E37;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: white;
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #EDE0D4;
+}
+
+/* Menu Page */
+
+.menu-intro {
+    color: #EDE0D4;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.category-title {
+    color: #EDE0D4;
+    margin-top: 35px;
+}
+
+footer {
+    background-color: #6F4E37;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
